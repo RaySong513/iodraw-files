@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) iodraw/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1968" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="787" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -72,6 +72,77 @@
             <Array as="points">
               <mxPoint x="1919" y="574" />
               <mxPoint x="389" y="574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-16" value="台站注册与安全接入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1631" y="600" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-17" value="实时数据自动接入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1566" y="699" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-18" value="统一数据汇集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1582" y="797" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-19" value="数据清洗与质量控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1558" y="896" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-20" value="格式校核与标准化转换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1550" y="1017" width="220" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-21" value="实时分发 / 双向转发" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1557" y="1115" width="206" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-22" value="缓存与持久化存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1566" y="1214" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-23" value="监控告警与远程运维" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1631" y="1312" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-16" target="XgtmXuDz1CmUgnbSeTig-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-17" target="XgtmXuDz1CmUgnbSeTig-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-18" target="XgtmXuDz1CmUgnbSeTig-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-19" target="XgtmXuDz1CmUgnbSeTig-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-20" target="XgtmXuDz1CmUgnbSeTig-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-21" target="XgtmXuDz1CmUgnbSeTig-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.32;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-22" target="XgtmXuDz1CmUgnbSeTig-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1660" y="1287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-31" value="远程运维" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.67;exitY=0;entryX=0.67;entryY=0.99;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-23" target="XgtmXuDz1CmUgnbSeTig-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1805" y="1287" />
+              <mxPoint x="1805" y="674" />
             </Array>
           </mxGeometry>
         </mxCell>
