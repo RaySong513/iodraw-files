@@ -1,0 +1,81 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) iodraw/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1968" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-0" value="台站注册与安全接入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="520" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-1" value="实时数据自动接入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="490" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-2" value="统一数据汇集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="652" y="490" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-3" value="数据清洗与质量控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="858" y="490" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-4" value="格式校核与标准化转换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="490" width="220" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-5" value="实时分发 / 双向转发" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1450" y="490" width="206" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-6" value="缓存与持久化存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1706" y="490" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-7" value="监控告警与远程运维" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1944" y="520" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-0" target="XgtmXuDz1CmUgnbSeTig-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-1" target="XgtmXuDz1CmUgnbSeTig-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-2" target="XgtmXuDz1CmUgnbSeTig-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-3" target="XgtmXuDz1CmUgnbSeTig-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-4" target="XgtmXuDz1CmUgnbSeTig-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-5" target="XgtmXuDz1CmUgnbSeTig-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-6" target="XgtmXuDz1CmUgnbSeTig-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1919" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-15" value="远程运维" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=1;entryY=0.97;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-7" target="XgtmXuDz1CmUgnbSeTig-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1919" y="574" />
+              <mxPoint x="389" y="574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
