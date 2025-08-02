@@ -25,7 +25,7 @@
         <mxCell id="XgtmXuDz1CmUgnbSeTig-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-268" target="XgtmXuDz1CmUgnbSeTig-272">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XgtmXuDz1CmUgnbSeTig-268" value="标准化转换&#xa;libmseed + ObsPy → MiniSEED；GNSS → RINEX" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-268" value="标准化转换&#xa;libmseed + ObsPy → MiniSEED；GNSS → RINEX" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;fontColor=#3399FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1634" y="172" width="243" height="84" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-269" value="分发：Kafka + Avro&#xa;（波形/目录主题）" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -34,7 +34,7 @@
         <mxCell id="XgtmXuDz1CmUgnbSeTig-270" value="SeedLink 反向推送" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1930" y="149" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XgtmXuDz1CmUgnbSeTig-271" value="冗余：S3 对象存储&#xa;（MinIO / OBS）" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-271" value="S3 对象存储&#xa;（MinIO / OBS）" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1930" y="230" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-272" value="接口：gRPC + Protobuf&#xa;（目录产出子系统）" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
