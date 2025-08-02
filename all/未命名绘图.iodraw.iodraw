@@ -11,7 +11,7 @@
           <mxGeometry x="1120" y="180" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-267" value="质量清洗（流式）&#xa;Flink：去重 / 校时 / 补齐 / 异常剔除" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1329" y="180" width="256" height="70" as="geometry" />
+          <mxGeometry x="1360" y="180" width="256" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-268" target="XgtmXuDz1CmUgnbSeTig-269">
           <mxGeometry relative="1" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="XgtmXuDz1CmUgnbSeTig-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-268" target="XgtmXuDz1CmUgnbSeTig-272">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XgtmXuDz1CmUgnbSeTig-268" value="标准化转换&#xa;libmseed + ObsPy → MiniSEED；GNSS → RINEX" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-268" value="标准化转换&#xa;libmseed + ObsPy → MiniSEED&#xa;GNSS → RINEX" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1640" y="180" width="223" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-269" value="分发：Kafka + Avro&#xa;（波形/目录主题）" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
