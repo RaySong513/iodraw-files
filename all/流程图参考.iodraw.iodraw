@@ -396,10 +396,10 @@
         <mxCell id="oHulYGnQmGONxtWCcbGR-8" value="&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;质量清洗&lt;/font&gt;&lt;/b&gt;&lt;br&gt;REAL网格搜索算法、GaMMA无监督算法、PhaseLink深度学习算法" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
           <mxGeometry x="20" y="360" width="400" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="oHulYGnQmGONxtWCcbGR-9" value="&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;事件定位与震级计算&lt;br&gt;&lt;/font&gt;&lt;/b&gt;HYPOINVERSE + 1D速度模型、&lt;br&gt;NonLinLoc + 3D速度模型" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
+        <mxCell id="oHulYGnQmGONxtWCcbGR-9" value="&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;标准化转换&lt;br&gt;&lt;/font&gt;&lt;/b&gt;HYPOINVERSE + 1D速度模型、&lt;br&gt;NonLinLoc + 3D速度模型" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
           <mxGeometry x="20" y="540" width="400" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="oHulYGnQmGONxtWCcbGR-15" value="&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;人工复核与精细化分析&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;误差分析、事件检查、数据优化、&lt;/span&gt;&lt;div&gt;HypoDD双差定位、&lt;span style=&quot;background-color: initial;&quot;&gt;震级标定&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-1">
+        <mxCell id="oHulYGnQmGONxtWCcbGR-15" value="&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;分发&lt;br&gt;&lt;/font&gt;&lt;/b&gt;Kafka+Avro" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-1">
           <mxGeometry x="20" y="720" width="400" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;strokeWidth=2;" edge="1" parent="oHulYGnQmGONxtWCcbGR-1" source="oHulYGnQmGONxtWCcbGR-9" target="oHulYGnQmGONxtWCcbGR-15">
