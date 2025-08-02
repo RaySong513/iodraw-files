@@ -381,7 +381,7 @@
         <mxCell id="oHulYGnQmGONxtWCcbGR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=27;strokeWidth=2;" edge="1" parent="oHulYGnQmGONxtWCcbGR-2" source="oHulYGnQmGONxtWCcbGR-4" target="oHulYGnQmGONxtWCcbGR-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHulYGnQmGONxtWCcbGR-4" value="&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 27px;&quot;&gt;多协议实时接入&lt;/font&gt;&lt;br style=&quot;font-size: 27px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 27px;&quot;&gt;CSTP/SeedLink/RTCM&lt;/span&gt;" style="whiteSpace=wrap;strokeWidth=2;fontSize=27;fontStyle=1;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
+        <mxCell id="oHulYGnQmGONxtWCcbGR-4" value="&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 27px;&quot;&gt;多协议实时接入&lt;/font&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Kafka对接（波形/目录/元数据）&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;登记：ULID / 台站-分量-UTC / 接收时刻&lt;/span&gt;" style="whiteSpace=wrap;strokeWidth=2;fontSize=27;fontStyle=1;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
           <mxGeometry x="20" y="50" width="400" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=27;" edge="1" parent="oHulYGnQmGONxtWCcbGR-2" source="oHulYGnQmGONxtWCcbGR-6" target="oHulYGnQmGONxtWCcbGR-8">
@@ -406,7 +406,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-21" value="数据实时输入&#xa;Kafka对接（波形/目录/元数据）&#xa;登记：ULID / 台站-分量-UTC / 接收时刻" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="1854.5" width="243" height="119" as="geometry" />
+          <mxGeometry x="1576" y="1854.5" width="247" height="119" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-22" value="分层存储与索引&#xa;Alluxio 热层；MinIO/OBS 归档&#xa;TimescaleDB + openGauss；GIN/BTREE 索引" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1581" y="2023.5" width="237" height="137" as="geometry" />
