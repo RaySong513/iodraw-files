@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) iodraw/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="fP5qI_I1GT_Bt191e_iS" name="第 7 页">
-    <mxGraphModel dx="2616" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1920" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,16 +406,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-21" value="数据实时输入&#xa;Kafka对接（波形/目录/元数据）&#xa;登记：ULID / 台站-分量-UTC / 接收时刻" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="446" y="2570" width="247" height="119" as="geometry" />
+          <mxGeometry x="1580" y="1854.5" width="243" height="119" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-22" value="分层存储与索引&#xa;Alluxio 热层；MinIO/OBS 归档&#xa;TimescaleDB + openGauss；GIN/BTREE 索引" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="451" y="2739" width="237" height="137" as="geometry" />
+          <mxGeometry x="1581" y="2023.5" width="237" height="137" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-23" value="统一检索与服务&#xa;FDSN WS / REST / GraphQL&#xa;热点直返；冷数据回流；SeedLink 流式" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="442" y="2925" width="255" height="101" as="geometry" />
+          <mxGeometry x="1572" y="2209.5" width="255" height="101" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-24" value="主备同步与审计&#xa;openGauss 逻辑复制；S3 版本/复制&#xa;Lifecycle；ELK；Prometheus/Grafana" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="440" y="3077" width="260" height="119" as="geometry" />
+          <mxGeometry x="1570" y="2361.5" width="260" height="119" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="oHulYGnQmGONxtWCcbGR-21" target="oHulYGnQmGONxtWCcbGR-22">
           <mxGeometry relative="1" as="geometry">
