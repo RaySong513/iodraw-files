@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) iodraw/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1789" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="729" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-225" value="入网与多协议实时接入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="20" width="537" height="412" as="geometry" />
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-264" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XgtmXuDz1CmUgnbSeTig-226" target="XgtmXuDz1CmUgnbSeTig-263">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-226" value="台站采集器&#xa;（速度/加速度/GNSS）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="45" y="164" width="225" height="66" as="geometry" />
@@ -249,6 +252,9 @@
               <mxPoint x="640" y="250" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XgtmXuDz1CmUgnbSeTig-263" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="97.5" y="21" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
