@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-268" value="标准化转换&#xa;libmseed + ObsPy → MiniSEED；GNSS → RINEX" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1620" y="165.5" width="243" height="84" as="geometry" />
+          <mxGeometry x="1640" y="180" width="223" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="XgtmXuDz1CmUgnbSeTig-269" value="分发：Kafka + Avro&#xa;（波形/目录主题）" style="whiteSpace=wrap;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1930" y="59" width="240" height="66" as="geometry" />
