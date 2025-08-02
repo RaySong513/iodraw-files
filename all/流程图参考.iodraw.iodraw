@@ -387,7 +387,7 @@
         <mxCell id="oHulYGnQmGONxtWCcbGR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="oHulYGnQmGONxtWCcbGR-2" source="oHulYGnQmGONxtWCcbGR-6" target="oHulYGnQmGONxtWCcbGR-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHulYGnQmGONxtWCcbGR-6" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;统一接入网关&lt;/b&gt;&lt;/font&gt;&lt;br&gt;最新模型USTC-Picker、基准模型PhaseNet、常规STA/LTA+AIC" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
+        <mxCell id="oHulYGnQmGONxtWCcbGR-6" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;统一接入网关&lt;/b&gt;&lt;/font&gt;&lt;br&gt;DataCollectAgent" style="whiteSpace=wrap;strokeWidth=2;fontSize=24;html=1;" vertex="1" parent="oHulYGnQmGONxtWCcbGR-2">
           <mxGeometry x="20" y="180" width="400" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oHulYGnQmGONxtWCcbGR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="oHulYGnQmGONxtWCcbGR-2" source="oHulYGnQmGONxtWCcbGR-8" target="oHulYGnQmGONxtWCcbGR-9">
