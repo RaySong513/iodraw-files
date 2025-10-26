@@ -55,8 +55,26 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05JiLCbi4r253ohT3iLE-0" value="flowchart TD&#xa;    A[参数输入&lt;br&gt;GUI界面] --&amp;gt; B[TEM 正演计算模块&lt;br&gt;基于扩散方程 ∇²E = μσ∂E/∂t&lt;br&gt;计算 J(r,z,t)]&#xa;    B --&amp;gt; C[可视化模块]&#xa;    C --&amp;gt; D{GIF 动态扩散图}&#xa;    C --&amp;gt; E[层状模型示意图]&#xa;    C --&amp;gt; F[时-深剖面图 J(z,t)]&#xa;    D &amp;amp; E &amp;amp; F --&amp;gt; G[文件管理模块&lt;br&gt;输出数据与图件]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940" y="400" width="220" height="180" as="geometry" />
+        <mxCell id="05JiLCbi4r253ohT3iLE-1" value="flowchart TD" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1210" y="430" width="560" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="05JiLCbi4r253ohT3iLE-2" value="    A[参数输入&lt;br&gt;GUI界面] --&gt; B[TEM 正演计算模块&lt;br&gt;基于扩散方程 ∇²E = μσ∂E/∂t&lt;br&gt;计算 J(r,z,t)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="05JiLCbi4r253ohT3iLE-1">
+          <mxGeometry y="26" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="05JiLCbi4r253ohT3iLE-3" value="    B --&gt; C[可视化模块]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="05JiLCbi4r253ohT3iLE-1">
+          <mxGeometry y="52" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="05JiLCbi4r253ohT3iLE-4" value="    C --&gt; D{GIF 动态扩散图}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="05JiLCbi4r253ohT3iLE-1">
+          <mxGeometry y="78" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="05JiLCbi4r253ohT3iLE-5" value="    C --&gt; E[层状模型示意图]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="05JiLCbi4r253ohT3iLE-1">
+          <mxGeometry y="104" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="05JiLCbi4r253ohT3iLE-6" value="    C --&gt; F[时-深剖面图 J(z,t)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="05JiLCbi4r253ohT3iLE-1">
+          <mxGeometry y="130" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="05JiLCbi4r253ohT3iLE-7" value="    D &amp; E &amp; F --&gt; G[文件管理模块&lt;br&gt;输出数据与图件]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="05JiLCbi4r253ohT3iLE-1">
+          <mxGeometry y="156" width="560" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
